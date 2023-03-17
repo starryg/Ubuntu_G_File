@@ -1,0 +1,25 @@
+sudo apt update
+sudo apt upgrade
+
+sudo apt install ruby
+sudo apt-get install ruby-dev
+
+
+sudo apt install build-essential
+gcc --version
+
+nodejs
+tar -xvf nodejs.tar.xz
+sudo mv node-v18.15.0-linux-x64 /usr/src
+set link
+ln -s /usr/src/node-v18.15.0-linux-x64/bin/npm /usr/local/bin/
+ln -s /usr/src/node-v18.15.0-linux-x64/bin/node /usr/local/bin/
+npm -v
+node -v
+
+本来想继续安装gem的，但是输入 gem -v 显示已经安装好了，不知道是哪一步安装上的
+
+sudo gem install jekyll
+which gem 
+jekyll --version
+gem update jekyll

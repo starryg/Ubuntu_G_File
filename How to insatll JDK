@@ -1,0 +1,10 @@
+How to install JDK on Ubuntu
+1. Download Oracle JDk-17.0.6 xxx.tar.gz
+2. tar -zxvf xxx.tar.gz
+3. sudo mv jdk-17.0.6 /usr/lib/jvm
+4. sudo vim etc/profile
+5. add these code at the end of page:
+	export JAVA_HOME=/usr/lib/jvm/jdk-17.0.6
+	export CLASSPATH=$CLASSPATH:$JAVA_HOME/lib/
+	export PATH=$PATH:$JAVA_HOME/bin
+6. use java -version to check if success.
