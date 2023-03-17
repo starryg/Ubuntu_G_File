@@ -23,3 +23,9 @@ sudo gem install jekyll
 which gem 
 jekyll --version
 gem update jekyll
+
+sudo jekyll new MyBlog
+cd  MyBlog/
+sudo jekyll serve
+
+
